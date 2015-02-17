@@ -37,19 +37,19 @@ returns true if serialization was successful, false otherwise.
 set the synaptic weight from the _source_ to the _target_ Neuron to _weight_.
 
 - `public void modSynapse(int target, int source, float weight)`
-same as above, resolves neuron index numbers to Neuron objects, then calls `modSynapse(Neuron, Neuron, float)`
+same as above, resolves neuron index numbers to Neuron objects, then calls `modSynapse(Neuron, Neuron, float)`.
 
 - `public float getWeight(Neuron target, Neuron source)`
 returns the synaptic weight from the _source_ to the _target_ Neuron.
 
 - `public float getWeight(int target, int source)`
-same as above, resolves neuron index numbers to Neuron objects, then returns the value returned by `getWeight(Neuron, Neuron)`
+same as above, resolves neuron index numbers to Neuron objects, then returns the value returned by `getWeight(Neuron, Neuron)`.
 
 - `public boolean isConnected(Neuron target, Neuron source)`
-returns true if _source_ is connected to _target_ (ie, the synaptic weight from _source_ to _target_ is non-zero).
+returns true if _source_ is connected to _target_ (ie, the synaptic weight from _source_ to _target_ is non-zero), false otherwise.
 
 - `public boolean isConnected(int target, int source)`
-same as above, resolves neuron index numbers to Neuron objects, then returns the value returned by `isConnected(Neuron, Neuron)`
+same as above, resolves neuron index numbers to Neuron objects, then returns the value returned by `isConnected(Neuron, Neuron)`.
 	
 - `public float[] map(float[] inputs)`
 maps an input vector to an output vector through the neural network.
