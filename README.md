@@ -59,8 +59,8 @@ Java SE 8 or later. May or may not work with older versions.
 
 ##Current progress	
 #####Neural Network
-- Neuron model
-- InputNeuron model
+- Neuron model.
+- Input model.
 - Generic network architecture model with a HashMap for storing synaptic weights, an way to update said weights, a firing queue, and a way to feed the network input and read its output.
 - Classes with global constants and globally useful utility functions.
 			
@@ -73,9 +73,9 @@ Capability to represent a given NeuralNetwork object as a DNASequence object, al
 - Feedforward network architecture model, built on top of the generic model, with specific constraints imposed on the synapses (only allow synapses from layer k to layer k + 1).
 			
 #####Training/Evolution
-- Fitness function for the GA
+- Fitness function for the GA.
 - Cross validation to stop training when error is minimized.
-- Backpropogation based training
+- Backpropogation based training.
 - Unsupervised learning / Hebbian learning?
 
 #####Other
