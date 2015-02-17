@@ -68,6 +68,8 @@ Pending:
 				Feedforward network architecture model, built on top of the generic model, with specific constraints imposed on the synapses (only allow synapses from layer k to layer k + 1).
 			
 			Training/Evolution
+				Fitness function for the GA
+				cross validation to stop training when error is minimized.
 				Backpropogation based training
 				Unsupervised learning / Hebbian learning?
 			
