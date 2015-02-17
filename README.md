@@ -51,6 +51,7 @@ Usage:
 Requires:	Java SE 8. May or may not work with older versions.				
 
 Current:	
+			
 			NeuralNetwork
 				Neuron model
 				InputNeuron model
@@ -62,6 +63,7 @@ Current:
 				Capability to represent a given NeuralNetwork object as a DNASequence object, along with the ability to generate offspring with crossover and mutation functions.
 
 Pending:	
+			
 			NeuralNetwork
 				Feedforward network architecture model, built on top of the generic model, with specific constraints imposed on the synapses (only allow synapses from layer k to layer k + 1).
 			
