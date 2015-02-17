@@ -58,7 +58,7 @@ maps an input vector to an output vector through the neural network.
 Java SE 8 or later. May or may not work with older versions.				
 
 ##Current progress	
-#####NeuralNetwork
+#####Neural Network
 - Neuron model
 - InputNeuron model
 - Generic network architecture model with a HashMap for storing synaptic weights, an way to update said weights, a firing queue, and a way to feed the network input and read its output.
@@ -69,7 +69,7 @@ Java SE 8 or later. May or may not work with older versions.
 Capability to represent a given NeuralNetwork object as a DNASequence object, along with the ability to generate offspring with crossover and mutation functions.
 
 ##Pending work	
-#####NeuralNetwork
+#####Neural Network
 - Feedforward network architecture model, built on top of the generic model, with specific constraints imposed on the synapses (only allow synapses from layer k to layer k + 1).
 			
 #####Training/Evolution
