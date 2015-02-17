@@ -6,7 +6,8 @@ Version:	0.1
 
 Date:		2015/02/17
 
-Usage:	
+Usage:
+			
 			NeuralNetwork	(Class)
 				Constructor Summary
 					public NeuralNetwork(int neuronCount, int inputCount, int outputCount);
