@@ -50,8 +50,9 @@ Usage:
 
 Requires:	Java SE 8. May or may not work with older versions.				
 
-Current:	NeuralNetwork
-Work			>Neuron model
+Current:	
+			NeuralNetwork
+				>Neuron model
 				>InputNeuron model
 				>Generic network architecture model with a HashMap for storing synaptic weights, an way to update said weights, a firing queue, and a way to feed the network input and read its output.
 				>Classes with global constants and globally useful utility functions.
@@ -59,8 +60,9 @@ Work			>Neuron model
 				>The beginnings of an evolutionary algorithm based training paradigm, which will be capable of deciding both the network architecture and the synaptic weights
 				 Capability to represent a given NeuralNetwork object as a DNASequence object, along with the ability to generate offspring with crossover and mutation functions.
 
-Pending:	NeuralNetwork
-Work			>Feedforward network architecture model, built on top of the generic model, with specific constraints imposed on the synapses (only allow synapses from layer k to layer k + 1).
+Pending:	
+			NeuralNetwork
+				>Feedforward network architecture model, built on top of the generic model, with specific constraints imposed on the synapses (only allow synapses from layer k to layer k + 1).
 			Training/Evolution
 				>Backpropogation based training
 				>Unsupervised learning / Hebbian learning?
